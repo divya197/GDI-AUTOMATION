@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="83590" started-at="2017-08-23T05:46:44Z" finished-at="2017-08-23T05:48:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="83590" started-at="2017-08-23T05:46:44Z" finished-at="2017-08-23T05:48:07Z">
+      <class name="com.gdi.modules.Modules">
+        <test-method status="PASS" signature="dynamiteUS()[pri:0, instance:com.gdi.modules.Modules@68c4039c]" name="dynamiteUS" duration-ms="83565" started-at="2017-08-23T11:16:44Z" finished-at="2017-08-23T11:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamiteUS -->
+      </class> <!-- com.gdi.modules.Modules -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
