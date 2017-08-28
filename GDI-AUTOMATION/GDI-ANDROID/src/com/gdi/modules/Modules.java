@@ -28,6 +28,9 @@ public class Modules extends ExtentReport
 		testReport=eReport.startTest("Login");
 		AndroidDriver androidDriver=lapp.launchApplication("dynamite_com.1.16.3.apk");
 		//3)Login usecase
-		DynamiteUSUseCases.signIn(androidDriver, testReport);
+		//DynamiteUSUseCases.signIn(androidDriver, testReport);
+		DynamiteUSUseCases.NewRegistration(androidDriver, testReport);
+		DynamiteUSUseCases.completeProfile(androidDriver, testReport);
+		//DynamiteUSUseCases.ErrorLogin(androidDriver, testReport);
 	}
 }

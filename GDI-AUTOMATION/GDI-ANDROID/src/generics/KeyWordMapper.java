@@ -14,6 +14,17 @@ public class KeyWordMapper
 		{
 			ActionMethos.click(androidDriver, input1, testReport);
 		}
+		
+		if(action.equalsIgnoreCase("waitForElement"))
+		{
+			ActionMethos.waitForElement(androidDriver, input1, testReport);
+		}
+		if(action.equalsIgnoreCase("getText"))
+		{
+			ActionMethos.getText(androidDriver,input1,testReport);
+		}
+		
+	
 	}
 	public static void executekeyword(AndroidDriver androidDriver, String action,String input1, String input2, ExtentTest testReport) throws InterruptedException
 	{
@@ -21,6 +32,21 @@ public class KeyWordMapper
 		{
 			ActionMethos.sendKeys(androidDriver,input1, input2, testReport);
 		}
+		if(action.equalsIgnoreCase("getTextAssertion"))
+		{
+			ActionMethos.getTextAssertion(androidDriver,input1, input2, testReport);
+		}
+		
 	}
+	
+	public static void executekeyword(AndroidDriver androidDriver, String action,ExtentTest testReport)
+	{
+		if(action.equalsIgnoreCase("scrollScreen"))
+		{
+			ActionMethos.scrollScreen(androidDriver, testReport);
+		}
+		
+	}
+	
 }
 	
