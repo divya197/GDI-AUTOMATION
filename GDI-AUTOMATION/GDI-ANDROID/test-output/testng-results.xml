@@ -2,15 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="83590" started-at="2017-08-23T05:46:44Z" finished-at="2017-08-23T05:48:07Z">
+  <suite name="Default suite" duration-ms="66182" started-at="2017-08-27T08:14:27Z" finished-at="2017-08-27T08:15:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="83590" started-at="2017-08-23T05:46:44Z" finished-at="2017-08-23T05:48:07Z">
+    <test name="Default test" duration-ms="66182" started-at="2017-08-27T08:14:27Z" finished-at="2017-08-27T08:15:33Z">
       <class name="com.gdi.modules.Modules">
-        <test-method status="PASS" signature="dynamiteUS()[pri:0, instance:com.gdi.modules.Modules@68c4039c]" name="dynamiteUS" duration-ms="83565" started-at="2017-08-23T11:16:44Z" finished-at="2017-08-23T11:18:07Z">
+        <test-method status="PASS" signature="signIn()[pri:0, instance:com.gdi.modules.Modules@3abbfa04]" name="signIn" duration-ms="66165" started-at="2017-08-27T13:44:27Z" finished-at="2017-08-27T13:45:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dynamiteUS -->
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="endFrameWork()[pri:0, instance:com.gdi.modules.Modules@3abbfa04]" name="endFrameWork" is-config="true" duration-ms="297" started-at="2017-08-27T13:45:33Z" finished-at="2017-08-27T13:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endFrameWork -->
       </class> <!-- com.gdi.modules.Modules -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -5,7 +5,8 @@
     <classes>
       <class name="com.gdi.modules.Modules">
         <methods>
-          <include name="dynamiteUS"/>
+          <include name="endFrameWork"/>
+          <include name="signIn"/>
         </methods>
       </class> <!-- com.gdi.modules.Modules -->
     </classes>
